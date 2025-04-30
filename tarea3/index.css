@@ -1,0 +1,208 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 70px 0;
+}
+
+.top{
+    background-color: #36c;
+    padding: 0 20px;
+}
+
+.header{
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(2, 181, 61);
+}
+
+header{
+    width: 100%;
+}
+
+.help {
+    width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.help-content,
+.interest-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.help-item {
+    background-color: #ffffff;
+    padding: 20px 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.help-item-text{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.help-item img{
+    width: 32px;
+    height: 35px;
+}
+
+.help-item li {
+  width: 175px;
+  margin-left: 20px;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+.portals-item {
+  background-color: #009166;
+  padding: 20px;
+  color: white;
+  display: flex;
+  gap: 15px;
+}
+
+.portals-item img{
+    height: 32px;
+}
+.portals-item li {
+  margin-left: 20px;
+  width: 172px;
+}
+
+.portals-item h3 {
+  width: 172px;
+}
+
+.portales{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.portals-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.citizenship-services-section {
+  width: 100%;
+  margin-top: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.citizenship-services-content {
+  display: flex;
+  gap: 10px;
+}
+
+.citizenship-services-content li {
+  margin-left: 20px;
+}
+
+.citizenship-services-section h4{
+    color: #009166;
+}
+
+.prevalidators-section {
+  width: 70%;
+}
+
+.prevalidators-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 70px;
+}
+
+.prevalidators-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.prevalidators-item ul{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+footer{
+    background-color: #36c;
+    width: 100%;
+    margin-top: 50px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 250px;
+    gap: 70px;
+}
+
+.footer-item{
+    padding: 20px;
+}
+
+ul,
+li,
+h2,
+h1,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+    margin-bottom: 8px;
+}
+
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 16px;
+}
+
+li{
+    font-size: 14px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f6f7f9; 
+    line-height: 1.9;
+}
+
