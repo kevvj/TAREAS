@@ -511,7 +511,7 @@ export default function Home() {
   return (
     <div className="container">
       <header>
-        <span onClick={ ()=>setRute('dashboard')}>Panel de administración</span><span>Admin</span>
+        <span onClick={ ()=>setRute('dashboard')} className='cursor-pointer text-2xl'>Panel de administración</span><span>Admin</span>
       </header>
 
 
