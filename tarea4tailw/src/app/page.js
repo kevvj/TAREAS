@@ -16,7 +16,7 @@ export default function Home() {
 
 
 
-  const DashBoard = ({ proyects, participants, assignments }) => {
+  const DashBoard = () => {
     return (
       <>
         <h3>Dashboard</h3>
@@ -25,15 +25,15 @@ export default function Home() {
         <div className="flex gap-5 w-[90%] mt-7">
           <div className="border border-[#ccc] p-5 rounded-[9px] w-[30%]">
             <h4 className='text-[1.2rem]'>Proyectos</h4>
-            <span className='text-[1.8rem] font-bold'>{proyects}</span>
+            <span className='text-[1.8rem] font-bold'>{proyects.length}</span>
           </div>
           <div className="border border-[#ccc] p-5 rounded-[9px] w-[30%]">
             <h4 className='text-[1.2rem]'>participantes</h4>
-            <span className='text-[1.8rem] font-bold'>{participants}</span>
+            <span className='text-[1.8rem] font-bold'>{participants.length}</span>
           </div>
           <div className="border border-[#ccc] p-5 rounded-[9px] w-[30%]">
             <h4 className='text-[1.2rem]'>Asignaciones</h4>
-            <span className='text-[1.8rem] font-bold'>{assignments}</span>
+            <span className='text-[1.8rem] font-bold'>{assignments.length}</span>
           </div>
         </div>
       </>
@@ -511,7 +511,7 @@ export default function Home() {
   return (
     <div className="container">
       <header>
-        <span>Panel de administración</span><span>Admin</span>
+        <span onClick={ ()=>setRute('dashboard')}>Panel de administración</span><span>Admin</span>
       </header>
 
 
@@ -558,16 +558,16 @@ export default function Home() {
   )
 }
 
-const proyectss = [{ id: 1, name: "name1", description: "description1", startDate: "startDate1", endDate: "endDate1", value: "value1", assignments: "assignments1" },
-{ id: 2, name: "name2", description: "description2", startDate: "startDate2", endDate: "endDate2", value: "value2", assignments: "assignments2" },
-{ id: 3, name: "name3", description: "description3", startDate: "startDate3", endDate: "endDate3", value: "value3", assignments: "assignments3" }]
+const proyectss = [{ id: 1, name: "Nombre uno", description: "description1", startDate: "startDate1", endDate: "endDate1", value: "value1", assignments: "assignments1" },
+{ id: 2, name: "Nombre dos", description: "description2", startDate: "startDate2", endDate: "endDate2", value: "value2", assignments: "assignments2" },
+{ id: 3, name: "Nombre tres", description: "description3", startDate: "startDate3", endDate: "endDate3", value: "value3", assignments: "assignments3" }]
 
-const participantss = [{ id: 1, name: "name1", lastName: "description1", email: "startDate1", phone: "endDate1", assignments: "assignments1" },
+const participantss = [{ id: 1, name: "Nombre 1", lastName: "description1", email: "startDate1", phone: "endDate1", assignments: "assignments1" },
 
-{ id: 2, name: "name1", lastName: "description1", email: "startDate1", phone: "endDate1", assignments: "assignments1" },
-{ id: 3, name: "name1", lastName: "description1", email: "startDate1", phone: "endDate1", assignments: "assignments1" }]
+{ id: 2, name: "Nombre 2", lastName: "description1", email: "startDate1", phone: "endDate1", assignments: "assignments1" },
+{ id: 3, name: "Nombre 3", lastName: "description1", email: "startDate1", phone: "endDate1", assignments: "assignments1" }]
 
-const assignmentss = [{ id: 1, proyect: "name1", participant: "description1" },
-{ id: 2, proyect: "name2", participant: "description2" },
-{ id: 3, proyect: "name3", participant: "description3" },
+const assignmentss = [{ id: 1, proyect: "Nombre 1", participant: "description1" },
+{ id: 2, proyect: "Nombre 2", participant: "description2" },
+{ id: 3, proyect: "Nombre 3", participant: "description3" },
 ]
