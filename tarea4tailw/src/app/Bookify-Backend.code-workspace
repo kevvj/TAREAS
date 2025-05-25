@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../react/bookify-segundointento/Bookify-Backend"
+		},
+		{
+			"path": "../../../../../Vite/personal-ia-pronts"
+		},
+		{
+			"path": "../../../../../../../Desktop/Bookify"
+		},
+		{
+			"path": "../../../../../react/TRABAJO/MonitorVirtual/mv-02"
+		},
+		{
+			"path": "../../../../../../Cproyects/waST"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tarea3"
+	}
+}
